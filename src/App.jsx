@@ -4,6 +4,7 @@ import About from './components/About.jsx'
 import Experience from "./components/Experiences.jsx";
 import Tech from "./components/Tech.jsx";
 import Projects from "./components/Projects.jsx";
+import Contact from "./components/Contact.jsx";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Tech/>
           <Experience/>
           <Projects/>
+          <Contact/>
           
         </div>
     </div>
