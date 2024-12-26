@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/project--1.png";
 import project2 from "../assets/projects/project--2.png";
-import project3 from "../assets/projects/gallery.png";
+import project3 from "../assets/projects/project--4.png";
 import project4 from "../assets/projects/project--3.png";
 
 export const PROFILE_CONTENT = ` With a passion for continuous learning and staying updated with the latest industry trends, I am always eager to embrace new challenges and technologies. My strong communication skills and ability to adapt to diverse environments enable me to work effectively with cross-functional teams, ensuring seamless project execution. I am excited to bring my expertise and enthusiasm to a forward-thinking company where I can grow both professionally and personally, while making a meaningful impact on the projects I undertake.`;
