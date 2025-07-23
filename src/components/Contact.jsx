@@ -3,22 +3,24 @@ import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div className="border-b border-neutral-900 pb-20">
-      <h1 className="my-20 text-4xl text-center">Contact</h1>
-      <div className="w-full justify-center text-center">
-        <h6 className="mb-5">{CONTACT.address}</h6>
-        <p className="cursor-pointer hover:opacity-9">{CONTACT.phoneNo}</p>
-        <p
-          className="w-full flex flex-wrap justify-center text-center"
+    <div className="border-b border-neutral-900 pb-20 text-white">
+      <h1 className="my-20 text-4xl text-center font-semibold text-purple-500">
+        Contact
+      </h1>
+      <div className="w-full flex flex-col items-center space-y-4">
+        <h6 className="text-base text-neutral-400">{CONTACT.address}</h6>
+        <p className="cursor-pointer hover:text-purple-400 transition duration-200">
+          {CONTACT.phoneNo}
+        </p>
+        <div
+          className="flex items-center gap-2 bg-neutral-900 px-4 py-2 rounded cursor-pointer hover:bg-neutral-800 transition duration-200"
           onClick={() => {
             window.location.href = `mailto:${CONTACT.email}`;
           }}
         >
-          <MdEmail className="text-2xl" />
-          <span className="cursor-pointer text-purple-500 px-2 rounded bg-neutral-900">
-            {CONTACT.email}
-          </span>
-        </p>
+          <MdEmail className="text-purple-500 text-xl" />
+          <span className="text-sm text-purple-400">{CONTACT.email}</span>
+        </div>
       </div>
     </div>
   );

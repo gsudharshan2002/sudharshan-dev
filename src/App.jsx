@@ -5,7 +5,10 @@ import Experience from "./components/Experiences.jsx";
 import Tech from "./components/Tech.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
-import { motion, useSpring, useScroll } from "motion/react"
+import { motion, useSpring, useScroll } from "motion/react";
+import Achievements from "./components/Achievements.jsx";
+
+
 
 
 
@@ -43,6 +46,7 @@ const App = () => {
             <Navbar />
             <Name />
             <About/>
+            <Achievements/>
             <Tech/>
             <Experience/>
             <Projects/>
